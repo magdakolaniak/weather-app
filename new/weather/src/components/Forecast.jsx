@@ -44,7 +44,7 @@ const Forecast = ({ details }) => {
           <>
             <Row>
               {detail !== null &&
-                detail.map((el) => (
+                detail.slice(1, 7).map((el) => (
                   <Col md={2}>
                     <Row>
                       <Col md={12}>
