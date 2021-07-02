@@ -1,0 +1,112 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-page-main {
+  background-color: rgba(186, 209, 245, 0.968);
+  min-width: 900px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-box-shadow: 16px 8px 24px 7px #000000;
+  box-shadow: 16px 8px 24px 7px #000000;
+}
+.nav-img {
+  height: 60px;
+}
+.nav-style {
+  border-radius: 22px !important;
+}
+.button-style {
+  background-color: rgb(54, 63, 142) !important;
+  border: none !important;
+}
+.nav-title {
+  color: rgb(94, 89, 89);
+  font-size: 30px;
+  margin-left: 15px;
+}
+.input-style {
+  color: rgb(94, 89, 89);
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.searching-bar {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+}
+.weather-icon {
+  height: 150px;
+}
+.title {
+  color: rgb(38, 69, 136);
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.sky-description {
+  padding-left: 30px;
+  color: rgb(70, 65, 65);
+  font-size: 18px;
+  font-weight: 550;
+}
+.main-temp {
+  font-size: 55px;
+  color: rgb(70, 65, 65);
+}
+.main-features {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.main-features-title {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.weather-icons {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.deg {
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(38, 69, 136);
+}
+.results {
+  color: rgb(38, 69, 136);
+  font-weight: 550;
+}
+.results-description {
+  font-weight: 600;
+  color: rgb(70, 65, 65);
+  padding-right: 80px;
+}
+.results-description-wind {
+  font-weight: 600;
+  color: rgb(70, 65, 65);
+  padding-right: 112px;
+}
+.main-temp-left {
+  color: rgb(70, 65, 65);
+  font-size: 18px;
+  font-weight: 550;
+}
+.city {
+  color: rgb(70, 65, 65);
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 30px;
+}
+.error-case {
+  margin-top: 20px;
+  padding-left: 10px;
+  text-align: center;
+  color: rgb(70, 65, 65);
+  font-size: 20px;
+  font-weight: 500;
+}
