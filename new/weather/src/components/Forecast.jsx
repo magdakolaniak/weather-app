@@ -4,6 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import '../style/index.css';
 import celsius from '../helper';
 import { ImArrowUp, ImArrowDown } from 'react-icons/im';
+import Moment from 'react-moment';
 
 const Forecast = ({ details }) => {
   let lat = details.lat;
@@ -47,6 +48,9 @@ const Forecast = ({ details }) => {
                   <Col md={2}>
                     <Row>
                       <Col md={12}>
+                        <Moment unix format="ddd" className="dates-forecast">
+                          {el.dt}
+                        </Moment>
                         <div>
                           <span>
                             <img
