@@ -45,14 +45,16 @@ const Forecast = ({ details }) => {
                               className="forecast-icon-url"
                             />
                           </span>
-                          <span>{celsius(el.temp.day)}°</span>
+                          <span className="forecast-degrees deg">
+                            {celsius(el.temp.day)}°
+                          </span>
                         </div>
                       </Col>
                     </Row>
                     <Row>
                       <Col md={12}>
                         <div className="my-own">
-                          <span>
+                          <span className="forecast-max">
                             <ImArrowUp />
                             {celsius(el.temp.max)}°
                           </span>
