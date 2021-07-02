@@ -110,3 +110,19 @@ body {
   font-size: 20px;
   font-weight: 500;
 }
+.forecast-icon-url {
+  height: 80px;
+  padding-left: -10px;
+}
+.checking {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.forecast-degrees {
+  margin-top: 20px;
+  padding-left: 30px !important;
+  margin-right: 20px !important;
+}
+.my-own {
+  padding-left: 20px;
+}

@@ -5,6 +5,8 @@ import { ImArrowUp, ImArrowDown } from 'react-icons/im';
 import { BsDropletHalf } from 'react-icons/bs';
 import { CgArrowsMergeAltV } from 'react-icons/cg';
 import { GiWindSlap } from 'react-icons/gi';
+import Trail from './Trail.tsx';
+import Forecast from '../components/Forecast.jsx';
 
 const Details = ({ data }) => {
   return (
@@ -12,9 +14,7 @@ const Details = ({ data }) => {
       <Container className="home-page-main">
         <Row className="title">
           <Col md={8}>Current Weather</Col>
-          <Col md={4}>
-            <span></span>
-          </Col>
+          <Col md={4}></Col>
         </Row>
         <Row>
           <Col md={6}>
@@ -74,6 +74,7 @@ const Details = ({ data }) => {
           </Col>
         </Row>
       </Container>
+      <Forecast details={data.coord} />
     </>
   );
 };
