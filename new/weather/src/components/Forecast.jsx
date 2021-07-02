@@ -28,7 +28,17 @@ const Forecast = ({ details }) => {
   return (
     <>
       <Container className="home-page-main">
-        <Button onClick={handleClick}> </Button>
+        {detail === null ? (
+          <div>
+            <Button onClick={handleClick} className="button-style-forecast">
+              {' '}
+              Check next days!{' '}
+            </Button>
+          </div>
+        ) : (
+          <div className="forecast-header">Forecast for upcoming days</div>
+        )}
+
         {detail != null ? (
           <>
             <Row>
@@ -70,7 +80,7 @@ const Forecast = ({ details }) => {
             </Row>
           </>
         ) : (
-          <span>nope</span>
+          <span></span>
         )}
       </Container>
     </>

@@ -5,7 +5,7 @@ import { ImArrowUp, ImArrowDown } from 'react-icons/im';
 import { BsDropletHalf } from 'react-icons/bs';
 import { CgArrowsMergeAltV } from 'react-icons/cg';
 import { GiWindSlap } from 'react-icons/gi';
-import Trail from './Trail.tsx';
+
 import Forecast from '../components/Forecast.jsx';
 
 const Details = ({ data }) => {

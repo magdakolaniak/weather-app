@@ -127,3 +127,24 @@ body {
 .forecast-max {
   margin-right: 14px;
 }
+.forecast-header {
+  margin-left: 260px;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+
+  color: rgb(94, 89, 89);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button-style-forecast {
+  background-color: rgba(186, 209, 245, 0.968) !important;
+  border: none !important;
+  margin-top: 30px;
+  margin-left: 280px;
+  color: rgb(94, 89, 89) !important;
+  font-weight: 600 !important;
+}
+.button-umbrella {
+  height: 20px;
+}
