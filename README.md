@@ -1,4 +1,4 @@
-# weather-app
+# Weather App
 
 Simple weather application build using external OpenWeather API
 
