@@ -13,6 +13,7 @@ import '../style/index.css';
 import Details from './Details';
 
 const Searching = () => {
+  const api = process.env.WEATHER_API;
   const [selectedCity, setSelectedCity] = useState('');
   const [results, setResults] = useState(null);
 
@@ -27,7 +28,7 @@ const Searching = () => {
   const getWeather = async (setSelectedCity) => {
     try {
       let response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${selectedCity}&appid=5a17452b42ea63a877f8f2b5ea332bf5`
+        `https://api.openweathermap.org/data/2.5/weather?q=${selectedCity}&appid=${api}`
       );
       let res = await response.json();
       console.log(res);
