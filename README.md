@@ -9,6 +9,8 @@ Simple weather application build using external OpenWeather API
 
 ✅  Forecast for upcoming days
 
+<img width="350" height="200" src="https://user-images.githubusercontent.com/73126133/135448102-4708af06-a979-4dd6-808b-6bf9772232b8.png"> <img width="350" height="200" src="https://user-images.githubusercontent.com/73126133/135448953-049b907c-ae97-47cc-8779-8054d6a99148.png"> <img width="350" height="200" src="https://user-images.githubusercontent.com/73126133/135449166-995f9b1f-566e-41b6-b5e1-e30580326ddb.png"> <img width="350" height="200" src="https://user-images.githubusercontent.com/73126133/135449181-b3bb5381-9947-4b6e-bd3a-ce7cf63812c9.png">
+
 ## What was covered?
 - [x] Installing & using npm packages 
 - [x] Creating functional components with useEffect
@@ -17,5 +19,3 @@ Simple weather application build using external OpenWeather API
 - [x] Creating complex components from scratch
 
 
-
-<img width="720" alt="Screenshot 2021-09-30 at 13 21 22" src="https://user-images.githubusercontent.com/73126133/135448102-4708af06-a979-4dd6-808b-6bf9772232b8.png">
